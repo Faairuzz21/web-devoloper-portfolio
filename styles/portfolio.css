@@ -10,11 +10,18 @@ body{
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px ;
 }
 /* nav related style */
 nav{
     display: flex;
-    font-family: open san;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 .nav-title{
     color: #181818;
@@ -26,6 +33,7 @@ line-height: normal;
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
