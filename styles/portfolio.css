@@ -179,13 +179,26 @@ main section {
 
 .resume-item-title{
     color:#474747;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 700px;
+    margin-bottom: 10px;
 }
 
 .resume-item-institute{
     font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 .resume-item-institute, .resume-item-description{
     color: #757575;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
